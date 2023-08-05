@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
+    tools:context=".EditProfile">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="104dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="149dp"
+        android:layout_marginEnd="153dp"
+        android:layout_marginBottom="575dp"
+        android:background="@drawable/ic_baseline_school_24" />
+
+
+    <TextView
+        android:id="@+id/text_yourname"
+        android:layout_width="207dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginLeft="-1dp"
+        android:layout_marginEnd="81dp"
+        android:layout_marginBottom="490dp"
+        android:fontFamily="@font/lemonada_semibold"
+        android:text="Name"
+        android:textSize="20dp" />
+
+
+    <EditText
+        android:id="@+id/profileFullName"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="420dp"
+        android:fontFamily="@font/lemonada_semibold"
+        android:text="Name"
+        android:textSize="20dp" />
+
+
+    <TextView
+        android:id="@+id/text_youremail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginEnd="76dp"
+        android:layout_marginBottom="351dp"
+        android:fontFamily="@font/lemonada_semibold"
+        android:text="Email"
+        android:textSize="20dp" />
+
+
+
+    <EditText
+        android:id="@+id/profileEmailAddress"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="280dp"
+        android:fontFamily="@font/lemonada_semibold"
+        android:text="Email"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/text_yourroll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginEnd="76dp"
+        android:layout_marginBottom="200dp"
+        android:fontFamily="@font/lemonada_semibold"
+        android:text="Roll No"
+        android:textSize="20dp" />
+
+
+
+    <EditText
+        android:id="@+id/profileRoll"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="130dp"
+        android:fontFamily="@font/lemonada_semibold"
+        android:text="Roll No"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/shape"
+        android:fontFamily="@font/lemonada_semibold"
+        android:text="Save"
+        android:textSize="20dp" />
+
+
+</RelativeLayout>

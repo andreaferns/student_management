@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".second">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_management"
+            android:layout_weight="2"
+            android:layout_gravity="start"
+            android:layout_marginLeft="4dp"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="6"
+            android:orientation="vertical"
+            android:layout_marginLeft="16sp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Management"
+                android:fontFamily="@font/lemonada_semibold"
+                />
+            <ProgressBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                android:progress="85"
+                android:progressTint="@color/colorAccent"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_android"
+            android:layout_weight="2"
+            android:layout_gravity="start"
+            android:layout_marginLeft="4dp"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="6"
+            android:orientation="vertical"
+            android:layout_marginLeft="16sp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mobile Application Development"
+                android:textSize="12dp"
+                android:fontFamily="@font/lemonada_semibold"
+                />
+            <ProgressBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                android:progress="90"
+                android:progressTint="@color/colorAccent"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_eti"
+            android:layout_weight="2"
+            android:layout_gravity="start"
+            android:layout_marginLeft="4dp"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="6"
+            android:orientation="vertical"
+            android:layout_marginLeft="16sp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Emerging Trends"
+                android:fontFamily="@font/lemonada_semibold"
+                />
+            <ProgressBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                android:progress="88"
+                android:progressTint="@color/colorAccent"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_wifi"
+            android:layout_weight="2"
+            android:layout_gravity="start"
+            android:layout_marginLeft="4dp"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="6"
+            android:orientation="vertical"
+            android:layout_marginLeft="16sp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Wireless Mobile Network"
+                android:fontFamily="@font/lemonada_semibold"
+                />
+            <ProgressBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                android:progress="90"
+                android:progressTint="@color/colorAccent"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_php"
+            android:layout_weight="2"
+            android:layout_gravity="start"
+            android:layout_marginLeft="4dp"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="6"
+            android:orientation="vertical"
+            android:layout_marginLeft="16sp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Web Development Using PHP"
+                android:textSize="13dp"
+                android:fontFamily="@font/lemonada_semibold"
+                />
+            <ProgressBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                android:progress="85"
+                android:progressTint="@color/colorAccent"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_baseline_auto_stories_24"
+            android:layout_weight="2"
+            android:layout_gravity="start"
+            android:layout_marginLeft="4dp"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="6"
+            android:orientation="vertical"
+            android:layout_marginLeft="16sp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Capstone Project"
+                android:fontFamily="@font/lemonada_semibold"
+                />
+            <ProgressBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                android:progress="93"
+                android:progressTint="@color/colorAccent"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

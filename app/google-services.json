@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "778122312602",
+    "firebase_url": "https://student-bcec4-default-rtdb.firebaseio.com",
+    "project_id": "student-bcec4",
+    "storage_bucket": "student-bcec4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:778122312602:android:f7a8442fc06b05855f1823",
+        "android_client_info": {
+          "package_name": "com.example.student"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "778122312602-j0b5fimbrq7mfk27acpmrlscs3540peh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBO8wYZi-4sv3e7ydu2-uvJ2RG78jneOYw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "778122312602-j0b5fimbrq7mfk27acpmrlscs3540peh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

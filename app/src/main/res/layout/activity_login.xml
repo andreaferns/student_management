@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="40dp"
+    tools:context=".login">
+
+
+    <ImageView
+        android:layout_width="118dp"
+        android:layout_height="91dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:background="@drawable/ic_baseline_school_24" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="463dp"
+        android:fontFamily="@font/lemonada_semibold"
+        android:gravity="center"
+        android:text="STUDENT MANAGEMENT SYSTEM"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/password1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="250dp"
+        android:hint="Passsword"
+        android:fontFamily="@font/lemonada_semibold"
+        android:inputType="textPassword"
+        android:textColorHighlight="@color/colorAccent"
+        android:textSize="20dp"
+        android:backgroundTint="@color/colorAccent"/>
+
+    <EditText
+        android:id="@+id/email1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="350dp"
+        android:hint="Email"
+        android:textColorHighlight="@color/colorAccent"
+        android:fontFamily="@font/lemonada_semibold"
+        android:textSize="20dp"
+        android:backgroundTint="@color/colorAccent"/>
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="215dp"
+        android:text="Not a Member?Sign Up Now!"
+        android:textColor="@color/black"
+        android:textSize="10dp"
+        android:fontFamily="@font/lemonada_semibold" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="125dp"
+        android:background="@drawable/shape"
+        android:text="LOGIN"
+        android:fontFamily="@font/lemonada_semibold"
+        android:textSize="20dp" />
+
+</RelativeLayout>
